@@ -1,3 +1,5 @@
+/* GENERAL */
+
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 
 p, a, h1, h2, h3, h4, h5, h6, li {
@@ -9,7 +11,16 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.btn-default {
+  background-color: #64B5B7;
+  border-color: none;
+}
 
+.btn-default h3 {
+  color: white;
+}
+
+/* NAVBAR */
 .navbar-brand {
     position: absolute;
     width: 100%;
@@ -39,6 +50,11 @@ img.logo {
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: 0px;
   }
+
+.navbar-nav>li>a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 }
 
 .navbar-toggle {
@@ -62,6 +78,7 @@ img.logo {
   margin-top: 84px;
 }
 
+/* CAROUSEL */
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
 display: block;
@@ -69,4 +86,10 @@ height: auto;
 max-width: 100%;
 line-height: 1;
 width: 100%; // Add this
+}
+
+/* MAP */
+
+.maps {
+  margin-bottom: -5px;
 }
