@@ -1,4 +1,4 @@
-/* GENERAL */
+/* TEXT STYLING */
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 
@@ -6,10 +6,24 @@ p, a, h1, h2, h3, h4, h5, h6, li {
   font-family: "Source Sans Pro";
 }
 
+p, a {
+  font-size: 1.2em;
+}
+
+a {
+  color: #64B5B7;
+}
+
+a:hover {
+  color: #64B5B7;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #64B5B7;
   font-weight: 700;
 }
+
+/* BUTTON STYLING */
 
 .btn-default {
   background-color: #64B5B7;
@@ -19,6 +33,13 @@ h1, h2, h3, h4, h5, h6 {
 .btn-default h3 {
   color: white;
 }
+
+/* SECTION STYLING */
+
+section {
+  padding: 40px 0px;
+}
+
 
 /* NAVBAR */
 .navbar-brand {
@@ -93,3 +114,29 @@ width: 100%; // Add this
 .maps {
   margin-bottom: -5px;
 }
+
+/* CUSTOMER SECTION */
+section.customers, section.book {
+  background-color: #E5EAF6;
+}
+
+.customer-quote {
+  border-radius: 15px;
+  background-color: white;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+}
+
+.fa {
+  color: #64B5B7;
+}
+
+/* Calendar */
+
+.calendar {
+  margin: 0px auto;
+  text-align: center;
+}
+
+
+
