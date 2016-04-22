@@ -27,12 +27,32 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-default {
   background-color: #64B5B7;
-  border-color: none;
+  border: 0px;
 }
 
 .btn-default h3 {
   color: white;
 }
+
+
+.btn-default{
+  background-color: #64B5B7;
+  border: 0px;
+}
+
+.navbar-default .navbar-nav>li>a:focus.btn-default, .navbar-default .navbar-nav>li>a:hover.btn-default {
+  background-color: #5DA9AB;
+  border: 0px;
+  text-decoration: underline;
+  color: white;
+}
+
+a:hover.btn.btn-default {
+  background-color: #64B5B7;
+  border: 0px;
+  text-decoration: underline;
+}
+
 
 /* SECTION STYLING */
 
@@ -87,7 +107,7 @@ img.logo {
 }
 
 .nav.navbar-nav a:hover h3 {
-  font-style: italic;
+  text-decoration: underline;
 }
 
 .nav.navbar-nav.navbar-left {
