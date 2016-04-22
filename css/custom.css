@@ -185,13 +185,8 @@ section#reviews, section#book {
   margin-right: 5px;
 }
 
-
-people
-bed
-bathroom
-shower
-walking
-kitchen
-shower
+.maps iframe{
+    pointer-events: none;
+}
 
 
