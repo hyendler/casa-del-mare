@@ -144,6 +144,24 @@ width: 100%; // Add this
   margin-bottom: -5px;
 }
 
+/* ABOUT */
+
+ul.details-list {
+  list-style-type:none;
+  padding-left: 0px;
+}
+
+ul.details-list > li {
+  padding: 5px 0px;
+  margin: 0px;
+}
+
+.details-icon {
+  width: 25px;
+  margin-right: 5px;
+  fill: #64B5B7;
+}
+
 /* CUSTOMER SECTION */
 section#reviews, section#book {
   background-color: #E5EAF6;
